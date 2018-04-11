@@ -1,4 +1,4 @@
 {
-  "name":"Basic Text Based Content Template",
-  "view":"basic.blade.php"
+    "name":"Basic Text Based Content Template",
+    "view":"basic.blade.php"
 }
