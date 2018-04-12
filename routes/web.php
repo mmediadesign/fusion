@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/routeModelBinding/{page}', 'PageController@routeModelBinding');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
